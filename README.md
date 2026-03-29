@@ -53,7 +53,7 @@ sequenceDiagram
 
 ```mermaid
 graph TD
-    A[Next.js App Router] --> B[/api/chat route]
+    A[Next.js App Router] --> B["POST /api/chat"]
     A --> C[Server Actions]
 
     B --> D[Vercel AI SDK streamText]
